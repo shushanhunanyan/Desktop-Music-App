@@ -1,0 +1,32 @@
+/* style.qss */
+QPushButton#sendButton {
+    background-color: #5a5a5a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+QPushButton#sendButton:hover {
+    background-color: #45a049;
+}
+
+QLineEdit {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    background-color: #212121;
+    color: white;
+}
+
